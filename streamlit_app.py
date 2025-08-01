@@ -11,7 +11,7 @@ st.set_page_config(
 )
 
 # === BRAND COLORS ===
-WIZI_YELLOW = "#8B8000"
+WIZI_YELLOW = "#f1c40f"
 
 # === SPLASH SCREEN ===
 if "splash_shown" not in st.session_state:
