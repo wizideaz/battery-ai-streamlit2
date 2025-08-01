@@ -11,7 +11,7 @@ st.set_page_config(
 )
 
 # === BRAND COLORS ===
-WIZI_YELLOW = "#f1c40f"
+WIZI_YELLOW = "#8B8000"
 
 # === SPLASH SCREEN ===
 if "splash_shown" not in st.session_state:
@@ -36,7 +36,7 @@ if "splash_shown" not in st.session_state:
 
 # === LOAD MODEL ===
 try:
-    model = joblib.load("model/soh_predictor_6features.joblib")
+    model = joblib.load("soh_predictor_6features.joblib")
     model_loaded = True
 except Exception as e:
     model_loaded = False
