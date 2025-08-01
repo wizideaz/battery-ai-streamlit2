@@ -6,7 +6,7 @@ import os
 
 # Load AI model
 try:
-    model = joblib.load("model/soh_predictor_6features.joblib")
+    model = joblib.load("soh_predictor_6features.joblib")
     model_status = "✅ Model loaded successfully."
 except Exception as e:
     model = None
