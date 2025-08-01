@@ -46,7 +46,7 @@ except Exception as e:
 st.markdown(
     f"""
     <h2 style='text-align: center; color: {WIZI_YELLOW};'>
-        Battery Ai Simulator
+        Ai battery SoH simulator
     </h2>
     <hr style="border-top: 2px solid {WIZI_YELLOW};" />
     """,
