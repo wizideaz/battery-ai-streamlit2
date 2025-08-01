@@ -20,7 +20,7 @@ robot_anim = load_lottie_url("https://assets7.lottiefiles.com/packages/lf20_tll0
 
 # Load model
 try:
-    model = joblib.load("model/soh_predictor_6features.joblib")
+    model = joblib.load("soh_predictor_6features.joblib")
 except Exception as e:
     st.error(f"⚠️ Failed to load model: {e}")
     st.stop()
